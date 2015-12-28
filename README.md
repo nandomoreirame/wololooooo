@@ -1,4 +1,3 @@
 # Wololooooo!
 
-![Wololooooo!](/assets/wolol.gif)
-
+![Wololooooo!](/assets/wololo.gif)
