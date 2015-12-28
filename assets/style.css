@@ -49,3 +49,11 @@ body {
 .page-header h1 {
   font-size: 4.2rem;
 }
+
+footer {
+  padding: 2em 0;
+}
+
+footer p {
+  margin: 2em 0;
+}
