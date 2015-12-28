@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Wololooooo!</title>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <main class="container text-center">
+  <title>Wololooooo!</title>
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script type="text/javascript">
+  function play(url) {
+    $("#mp3_source").attr("src", url);
+    $("#player")[0].load();
+    $("#player")[0].play();
+  }
+  </script>
+</head>
+<body>
+
+  <main class="container text-center">
+
+    <img src="/assets/wololo.gif" class="img-wololo" alt="Wololooooo!" title="Wololooooo!">
+
+    <header class="page-header">
       <h1>Wololooooo!</h1>
-      <div>
-        <object type="application/x-shockwave-flash"
-          data="http://instantbutton.me/swf/red.swf"
-          width="150" height="150"
-          id="button-nao_consegue_moises_20150529103520"
-          title="Adobe Flash Player" style="visibility: visible;">
-          <param name="allowScriptAccess" value="always">
-          <param name="allowFullScreen" value="false">
-          <param name="quality" value="high">
-          <param name="menu" value="false">
-          <param name="bgcolor" value="#ffffff">
-          <param name="wmode" value="transparent">
-          <param name="flashvars" value="mp3Url=http://www.myinstants.com/media/sounds/30-wololo.mp3">
-        </object>
-      </div>
-    </main>
+    </header>
 
-  </body>
+    <div class="instants">
+      <div class="button-background"></div>
+      <div class="large-button" onclick="play('/assets/wololo.mp3')"></div>
+      <div class="large-button-shadow"></div>
+    </div>
+
+    <audio id="player" preload="auto">
+      <source id="mp3_source" src="/assets/wololo.mp3" type="audio/mpeg">
+    </audio>
+
+  </main>
+
+</body>
 </html><!-- by nandomoreira.me -->
