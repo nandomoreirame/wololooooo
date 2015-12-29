@@ -3,6 +3,10 @@ body {
   color: #333;
 }
 
+.container {
+  max-width: 760px;
+}
+
 .instants {
   width: 190px;
   margin: 0 auto 25px;
@@ -48,6 +52,16 @@ body {
 
 .page-header h1 {
   font-size: 4.2rem;
+}
+
+.fb-like {
+  width: 190px;
+  text-align: left;
+}
+
+.fb-like span {
+  vertical-align: top !important;
+  top: -5px;
 }
 
 footer {
