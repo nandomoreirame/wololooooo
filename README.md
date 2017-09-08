@@ -1,3 +1,3 @@
-# Wololooooo!
+# Wololooooooooooooooooooooooooooooooooo!
 
-![Wololooooo!](/assets/wololo.gif)
+![Wololooooooooooooooooooooooooooooo!](/assets/wololo.gif)
